@@ -86,6 +86,7 @@ a {
 #header .header__right .header__right--icons {
   padding: 10px 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 #header .header__right .header__right--icons:hover {
   background-color: #f2f2f2;
@@ -114,35 +115,131 @@ a {
 
 /* Start Spotlight Section */
 #spotlight {
+  margin-top: 40px;
 }
 #spotlight .spotlight__top {
 }
 #spotlight .spotlight__top h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
 }
 #spotlight .spotlight__middle {
 }
-#spotlight .spotlight__middle i {
+#spotlight .spotlight__middle .spotlight__middle--top {
+  width: 60%;
+  margin: 0 auto;
 }
-#spotlight .spotlight__middle input[type="text"] {
+#spotlight .spotlight__middle .spotlight__middle--top ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
-#spotlight .spotlight__middle input[type="submit"] {
+#spotlight .spotlight__middle .spotlight__middle--top ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+#spotlight .spotlight__middle .spotlight__middle--top ul li.active {
+  border-bottom: 2px solid #000;
+}
+#spotlight .spotlight__middle .spotlight__middle--top ul li:hover {
+  border-bottom: 2px solid gray;
+  color: gray;
+}
+#spotlight .spotlight__middle .spotlight__middle--top ul li svg {
+}
+#spotlight .spotlight__middle .spotlight__middle--top ul li span {
+  font-weight: 700;
+}
+#spotlight .spotlight__middle .spotlight__middle--bottom {
+  width: 65%;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+#spotlight .spotlight__middle .spotlight__middle--bottom i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#spotlight .spotlight__middle .spotlight__middle--bottom input[type="text"] {
+  font-size: 16px;
+  display: inline-block;
+  width: 400px;
+}
+#spotlight .spotlight__middle .spotlight__middle--bottom input[type="submit"] {
+  text-align: right;
+  background-color: #84e9bd;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 #spotlight .spotlight__bottom {
+  /* width: 65%; */
+  /* height: 400px; */
+
+  background-color: #d9d1fc;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  object-fit: cover;
+  position: relative;
+}
+#spotlight .spotlight__bottom .spotlight__bottom--image {
+  width: 100%;
+}
+#spotlight .spotlight__bottom .spotlight__bottom--image img {
+  width: 100%;
+}
+#spotlight .spotlight__bottom .spotlight__bottom--content {
+  position: absolute;
+  top: 15%;
+  left: 20%;
 }
 #spotlight .spotlight__bottom div {
 }
 #spotlight .spotlight__bottom div small {
+  font-size: 14px;
 }
 #spotlight .spotlight__bottom div span {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 #spotlight .spotlight__bottom h2 {
+  font-size: 44px;
+  font-weight: 700;
+  width: 250px;
+  margin-top: 20px;
+  color: #000;
 }
 #spotlight .spotlight__bottom p {
+  width: 350px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 35px;
 }
 #spotlight .spotlight__bottom a.btn {
+  background-color: #52327c;
+  padding: 15px 20px;
+  border-radius: 25px;
 }
 #spotlight .spotlight__bottom a.btn i {
+  color: #fff;
 }
 #spotlight .spotlight__bottom a.btn span {
+  color: #fff;
+  background-color: transparent;
 }
 /* End Spotlight Section */
