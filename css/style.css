@@ -21,7 +21,6 @@ del {
 body {
   font-family: "Urbanist", sans-serif;
   font-size: 17px;
-  color: #253858;
   overflow-x: hidden;
   min-width: 320px;
   font-weight: 500;
@@ -315,6 +314,78 @@ a {
 }
 /* End Destination Section */
 
-/* Start Best Seller Location */
+/* Start Bloger Section */
+#blog {
+  margin-top: 30px;
+}
+#blog .blog__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#blog .blog__cards {
+  display: flex;
+  justify-content: space-between;
+}
+#blog .blog__cards .blog__card {
+  width: 23%;
+}
+#blog .blog__cards .blog__card .blog__card--img {
+  position: relative;
+}
 
-/* End Best Seller Location */
+#blog .blog__cards .blog__card .blog__card--img i {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 6;
+}
+#blog .blog__cards .blog__card .blog__card--img img {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#blog .blog__cards .blog__card .blog__card--content {
+}
+#blog .blog__cards .blog__card .blog__card--content .blog__card--content--tag {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#blog .blog__cards .blog__card .blog__card--content h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#blog .blog__cards .blog__card .blog__card--content ul {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#blog .blog__cards .blog__card .blog__card--content ul li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+#blog .blog__cards .blog__card .blog__card--content ul span {
+  margin-left: 10px;
+  display: inline-block;
+}
+#blog .blog__cards .blog__card .blog__card--content p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* End Bloger Section */
