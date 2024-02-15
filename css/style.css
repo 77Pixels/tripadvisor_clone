@@ -389,3 +389,50 @@ a {
 }
 
 /* End Bloger Section */
+
+/* Start Poster Section */
+#poster {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+#poster .wrapper {
+  position: relative;
+}
+#poster .poster__img {
+  width: 100%;
+  position: relative;
+  z-index: 7;
+}
+#poster .poster__img img {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+#poster .poster__content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  z-index: 8;
+}
+#poster .poster__content h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 0.35em #000000;
+}
+#poster .poster__content p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 0.35em #000000;
+  margin-bottom: 20px;
+}
+#poster .poster__content a.btn {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+/* End Posster section */
