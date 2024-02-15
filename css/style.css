@@ -477,3 +477,35 @@ a {
   text-align: center;
 }
 /* End Explore Section */
+/* Start Trending Section */
+#trending {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#trending .trending__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#trending h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+#trending ul {
+  display: flex;
+  justify-content: space-between;
+}
+#trending ul li {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  grid-area: 8px;
+}
+
+#trending a {
+}
+
+/* End Trending Section */
